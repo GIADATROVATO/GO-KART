@@ -821,3 +821,8 @@
 \pard\intbl\itap1\pardeftab720\partightenfactor0
 \cf7 \strokec7 # End of https://www.gitignore.io/api/git,java,maven,eclipse,windows\cf2 \strokec2 \cell \lastrow\row
 }
+ProgettoObserver/.classpath
+ProgettoObserver/.DS_Store
+ProgettoObserver/.settings/org.eclipse.jdt.core.prefs
+ProgettoObserver/bin/.DS_Store
+*.class
