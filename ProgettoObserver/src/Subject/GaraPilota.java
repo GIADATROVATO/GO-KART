@@ -110,6 +110,7 @@ public class GaraPilota implements Subject{
 				ordine.forEach( (n,t)->System.out.println( n.getId() +"	"+ t));
 				
 				System.out.println(" *** Piloti ancora in gara " +gara.pilotiAttivi.size()+ " ***");
+				// commento prova 
 				gara.pilotiAttivi.forEach( s-> System.out.println(" - " +s.getId()));
 				try {
 					Thread.sleep(2000);
