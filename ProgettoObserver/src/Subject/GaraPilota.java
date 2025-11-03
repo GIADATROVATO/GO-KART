@@ -39,42 +39,71 @@ public class GaraPilota implements Subject{
 	public static Callable<Void> corriGiro(GaraPilota gara){
 		return()->{
 			Map<Pilota,Integer> totali= new HashMap<>();
-			GestorePitStop pena= new GestorePitStop();
-			for(int giro=1;giro<3;giro++) {
+			GestorePitStop pena= GestorePitStop.getInstance();
+			for(int giro=1;giro<=3;giro++) {
 				if(gara.pilotiAttivi.isEmpty()) {
 					System.out.println("nessun pilota attivo");
 					break;
 				}
 				System.out.println(" *** GIRO *** " +giro);
+		/*
+		 * 	conta è la mappa creata all’inizio del giro, che contiene i tempi solo del giro corrente
+		 */
+				
+				//tempi random 
 				Map<Pilota,Integer> conta= gara.pilotiAttivi.stream().collect(Collectors.toMap(p->p, p-> (int)(Math.random()*100)));
 				conta.forEach((n,t)->{
-					System.out.println("nome " +n.getId() + " tempo "+ t);
+					System.out.println("[DEBUG] tempi generati "+ mappaToString(conta));
 				});
 				Map<Pilota, Integer> nuovaPenalita= pena.aggiornaPene(conta,gara.pilotiAttivi);
-				Map<Pilota,Integer> mappaAttivi= totali.entrySet().stream().filter(e->gara.pilotiAttivi.contains(e.getKey())).collect(
-						Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+					System.out.println("[DEBUG] penalità applicate "+ mappaToString(nuovaPenalita));
 				
 				for(Entry<Pilota,Integer> entry: conta.entrySet()) {
 					Pilota p= entry.getKey();
-
 				    if (!gara.pilotiAttivi.contains(p)) continue;
-					int penna= nuovaPenalita.getOrDefault(p, 0);
+					int penalitaPenna= nuovaPenalita.getOrDefault(p, 0);
 					int tempo= entry.getValue();
 
-					if( p.getStatoPilota().getNome()=="RITIRATO") continue;
+					if( p.getStatoPilota().getNome().equals("RITIRATO")) continue;
 					
-					int tempoTotale= totali.getOrDefault(p, 0)+tempo+penna;
+					int tempoTotale= totali.getOrDefault(p, 0)+tempo+penalitaPenna;
 					double conteggio= (double) tempoTotale/giro;
 					totali.put(p,tempoTotale);
-					System.out.println("** sommario **" + p.getId() + " totale "+tempoTotale +" ( penalità "+penna +")" +
+
+					p.setTempoTotaleComposite(tempoTotale);
+					
+					System.out.println("** sommario **" + p.getId() + " totale "+tempoTotale +" ( penalità "+penalitaPenna +")" +
 							" Telemetria " +conteggio) ;
 					gara.notificaObserver(p,tempoTotale,giro);
-					gara.aggiornaTelemetria(mappaAttivi,conteggio,giro);
 					
-					p.getStatoPilota().eseguiGiro(p, tempo, mappaAttivi, totali);
 				}
-					
+				// aggiorno la telemetria solo una volta
+			/**
+ * Caso							contenuto															quando usarli
+ * 
+ * totali.values()				Tutti i piloti che hanno corso almeno un giro (anche ritirati)		la media di tutti i tempi, anche i ritirati
+ * mappaAttivi.values()			Solo i piloti ancora in gara										media dei soli piloti che stanno correndo
+ 			*/
+				// costruisco mappa attivi dopo aggiornamento
 				
+				Map<Pilota,Integer> mappaAttivi= totali.entrySet().stream().filter(e->gara.pilotiAttivi.contains(e.getKey())).collect(
+						Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+
+				for(Entry<Pilota,Integer> pilot: mappaAttivi.entrySet()) {
+					Pilota ferrari= pilot.getKey();
+					int tempo= conta.getOrDefault(ferrari, 0);
+					ferrari.getStatoPilota().eseguiGiro(ferrari, tempo, mappaAttivi, totali);
+					
+				}
+				
+	            System.out.println("[DEBUG] mappaAttivi aggiornata: " + mappaToString(mappaAttivi));
+				
+				double mediaGlobale= mappaAttivi.values().stream().mapToInt(Integer::intValue).average().orElse(0);	
+				gara.aggiornaTelemetria(mappaAttivi,mediaGlobale,giro);
+
+	            System.out.println("[DEBUG] media calcolata su mappaAttivi: " + String.format("%.2f", mediaGlobale));
+	            System.out.println();
+	            
 				System.out.println("*** classifica ordinata dopo il giro ***" +giro);
 				Map<Pilota, Integer> ordine= totali.entrySet().stream().sorted(Map.Entry.comparingByValue()).collect(Collectors.toMap(
 						Map.Entry::getKey, Map.Entry::getValue, (e1,e2)->e1, LinkedHashMap::new));
@@ -88,7 +117,7 @@ public class GaraPilota implements Subject{
 					Thread.currentThread().interrupt();
 					System.out.println("Thread interrotto durante la pausa.");
 				}
-				gara.aggiornaClassifica(ordine,giro);
+				gara.aggiornaClassifica(ordine,giro); 
 			}
 			if(!gara.pilotiAttivi.isEmpty()) {
 			Optional<Entry<Pilota, Integer>> vincitore= totali.entrySet().stream().filter(e->gara.pilotiAttivi.contains(e.getKey()))
@@ -98,6 +127,8 @@ public class GaraPilota implements Subject{
 		return null;
 		};
 	}
-	
+	private static String mappaToString(Map<Pilota,Integer> mappa ) {
+		return mappa.entrySet().stream().map(m->m.getKey().getId()+" = "+ m.getValue()).collect(Collectors.joining(",", "{","}"));
+	}
 
 }

@@ -8,16 +8,19 @@ import java.util.stream.Collectors;
 import Interface.Observerr;
 import Interface.Subject;
 import Observer.GestorePitStop;
+import Singleton.GestoreGara;
 import model.Pilota;
 
 public class GaraPilotaQueue implements Subject,Runnable{
 	private BlockingQueue<eventoGiro> queue= new LinkedBlockingQueue<>();
 	private static List <Pilota> pilotiAttivi;
 	private Map<Pilota,Integer> totali=new HashMap<>();
-	private GestorePitStop gestorePit=new GestorePitStop();
+	private GestorePitStop gestorePit= GestorePitStop.getInstance();
 	private List<Observerr> observer= new ArrayList<>();
 	private volatile boolean garaAttiva=true;
 	private int numeroGiri=3;
+	GestoreGara logger= GestoreGara.getIstance();
+	
 	public GaraPilotaQueue( List <Pilota> piloti) {
 		this.pilotiAttivi=piloti;
 	}
@@ -45,13 +48,14 @@ public class GaraPilotaQueue implements Subject,Runnable{
 	public void aggiungiEvento(eventoGiro e) {
 		queue.offer(e);								//metodo che permette ai piloti di inviare i loro eventi
 	}
-	
+/*	
 	@Override
 	public void run() {
-		System.out.println("la Gara è iniziata ");
+		logger.log("la Gara è iniziata ");
 		int eventiRicevuti=0;
-		while(garaAttiva) {
-			try {
+		int eventiTotaliAttesi= numeroGiri*pilotiAttivi.size();
+		try {
+			while(eventiRicevuti<eventiTotaliAttesi) {
 				eventoGiro evento=queue.take();
 				Pilota p= evento.getPilota();
 				int tempo=evento.getTempo();
@@ -61,14 +65,15 @@ public class GaraPilotaQueue implements Subject,Runnable{
 				int penna=penalitaPene.getOrDefault(p, 0);
 				int tempoTotale= totali.getOrDefault(p, 0)+tempo+penna;
 				totali.put(p, tempoTotale);
-
-				double conteggio= (double) tempoTotale/giro;
+				double conteggio = (giro > 0) ?  (double) tempoTotale / giro:0;
 				
 				Map<Pilota,Integer> mappaAttivi= totali.entrySet().stream().filter(e->
 					GaraPilotaQueue.pilotiAttivi.contains(e.getKey())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
-				
-				System.out.println("** sommario **" + p.getId() + " totale "+tempoTotale +" ( penalità "+penna +")" +
-						" Telemetria " +conteggio) ;
+			// stampa e log per ogni giro
+				String msg= "** " +p.getId()+ " totale "+tempoTotale +" ( penalità "+penna +")" +" Telemetria " +conteggio;
+				System.out.println(msg);
+				logger.log(msg);
+					
 				notificaObserver(p,tempoTotale,giro);
 				aggiornaTelemetria(mappaAttivi,conteggio,giro);
 				
@@ -79,27 +84,112 @@ public class GaraPilotaQueue implements Subject,Runnable{
 				if(eventiRicevuti % GaraPilotaQueue.pilotiAttivi.size()==0) {
 					Map<Pilota,Integer> ordine= mappaAttivi.entrySet().stream().sorted(Map.Entry.comparingByValue()).collect(Collectors.toMap(
 						Map.Entry::getKey,Map.Entry::getValue,(e1,e2)->e1, LinkedHashMap::new));
-						
-					ordine.forEach((t,n)-> System.out.println("*** Vincitore *** "+t.getId()+ " tempo " +n));
-					aggiornaClassifica(ordine,giro);
 					
+					logger.log(" Classifica parziale giro " +giro +":");	
+					ordine.forEach((t,n)-> logger.log("-> " +t.getId()+ " tempo " +n));
+					
+					
+					aggiornaClassifica(ordine,giro);
 				}
-				if(giro>=numeroGiri) {
+				if(eventiRicevuti>=eventiTotaliAttesi) {
 					garaAttiva=false;
 				}
-				
-			} catch (InterruptedException e) {
-				Thread.currentThread().interrupt();
-				System.out.println("Gara interrotta ");
 			}
+		} catch (InterruptedException e) {
+				Thread.currentThread().interrupt();
+				logger.log("Gara interrotta ");
 		}
+		
 		// vincitore 
-		if(!GaraPilotaQueue.pilotiAttivi.isEmpty()) {
+		if(!pilotiAttivi.isEmpty()) {
 			Optional<Entry<Pilota, Integer>> vincitore= totali.entrySet().stream().filter(e->GaraPilotaQueue.pilotiAttivi.contains(e.getKey()))
 				.min(Map.Entry.comparingByValue());
-			System.out.println(" *** Vincitore ***" + vincitore.get().getKey().getId());
-			}
+			vincitore.ifPresent(v->{
+				String nome= v.getKey().getId();
+				int tempistica= v.getValue();
+				String risultato= "Vincitore: "+nome+" con tempo totale "+tempistica;
+				System.out.println(risultato);
+				logger.log(risultato);
+			});
+		}
+		logger.log(" Gara terminata correttamente");
 	}
+*/
+
+
+	
+	@Override
+    public void run() {
+        logger.log("La Gara è iniziata!");
+        int eventiRicevuti = 0;
+        int eventiTotaliAttesi = numeroGiri * pilotiAttivi.size();
+
+        try {
+            while (eventiRicevuti < eventiTotaliAttesi) {
+                eventoGiro evento = queue.take();
+                Pilota p = evento.getPilota();
+                int tempo = evento.getTempo();
+                int giro = evento.getGiro();
+                if (giro <= 0) {
+                    logger.log("⚠️ Evento anomalo ricevuto da " + p.getId() + " con giro=" + giro);
+                    continue; // Salta questo evento
+                }
+                // Penalità e ritiro
+                Map<Pilota, Integer> penalitaPene = gestorePit.aggiornaPene(totali, pilotiAttivi);
+                int penna = penalitaPene.getOrDefault(p, 0);
+
+                int tempoTotale = totali.getOrDefault(p, 0) + tempo + penna;
+                totali.put(p, tempoTotale);
+
+                double media = (giro > 0) ? (double) tempoTotale / giro : 0;
+
+                // Log e stampa
+                String msg = "** " + p.getId() + " totale " + tempoTotale + " (penalità " + penna + ") Telemetria " + media;
+                System.out.println(msg);
+                logger.log(msg);
+
+                notificaObserver(p, giro, tempoTotale);
+                aggiornaTelemetria(totali, media, giro);
+
+                eventiRicevuti++;
+
+                // Aggiorna classifica ogni giro completo
+                if (eventiRicevuti % pilotiAttivi.size() == 0) {
+                    Map<Pilota, Integer> classifica = totali.entrySet().stream()
+                            .filter(e -> pilotiAttivi.contains(e.getKey()))
+                            .sorted(Map.Entry.comparingByValue())
+                            .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
+                                    (e1, e2) -> e1, LinkedHashMap::new));
+
+                    logger.log("Classifica parziale giro " + giro + ":");
+                    classifica.forEach((t, n) -> logger.log("-> " + t.getId() + " tempo " + n));
+                    aggiornaClassifica(classifica, giro);
+                }
+            }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            logger.log("Gara interrotta!");
+        }
+
+        // Stampa vincitore
+        if (!pilotiAttivi.isEmpty()) {
+            Optional<Entry<Pilota, Integer>> vincitore = totali.entrySet().stream()
+                    .filter(e -> pilotiAttivi.contains(e.getKey()))
+                    .min(Map.Entry.comparingByValue());
+
+            vincitore.ifPresent(v -> {
+                String nome = v.getKey().getId();
+                int tempoTotale = v.getValue();
+                String risultato = "🏆 Vincitore: " + nome + " con tempo totale " + tempoTotale;
+                System.out.println(risultato);
+                logger.log(risultato);
+            });
+        }
+
+        logger.log("Gara terminata correttamente");
+    }
+
+	
 
 	public BlockingQueue<eventoGiro> getQueu() {
 		return queue;

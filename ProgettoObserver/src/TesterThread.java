@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
+import Singleton.GestoreGara;
 import Strategia.strategiaAggressiva;
 import Strategia.strategiaModerata;
 import Subject.GaraPilota;
@@ -24,14 +25,41 @@ public class TesterThread {
 		 * new ArrayList<>(Arrays.asList(...)) → crea una copia vera in memoria, quindi puoi aggiungere, rimuovere o iterare liberamente.
 		 */
 		
-		List<Pilota> piloti = new ArrayList<>(Arrays.asList(p1, p2, p3,p4));
-				
-		GaraPilotaQueue gara= new GaraPilotaQueue(piloti);
-		Thread threadGara= new Thread(gara);
-		for(Pilota p:piloti) {
-			Thread t= new Thread(new PilotaThread(p,gara.getQueu() ,3 ));
-			t.start();
-		}
+		
+		List<Pilota> piloti = new ArrayList<>(Arrays.asList(p1, p2, p3, p4));
+
+		GaraPilotaQueue gara = new GaraPilotaQueue(piloti);
+		Thread threadGara = new Thread(gara);
 		threadGara.start();
+
+		// Avvia i piloti e tieni traccia dei thread
+		List<Thread> threadsPiloti = new ArrayList<>();
+
+		for (Pilota p : piloti) {
+		    Thread t = new Thread(new PilotaThread(p, gara.getQueu(), 3));
+		    threadsPiloti.add(t);
+		    t.start();
+		}
+
+		// Attendi che TUTTI i piloti abbiano finito
+		for (Thread t : threadsPiloti) {
+		    try {
+		        t.join();
+		    } catch (InterruptedException e) {
+		        e.printStackTrace();
+		    }
+		}
+
+		// Poi attendi la fine della gara
+		try {
+		    threadGara.join();
+		} catch (InterruptedException e) {
+		    e.printStackTrace();
+		}
+
+		System.out.println("🏁 Tutti i thread terminati — gara completa.");
+
+		
+		
 	}
 }

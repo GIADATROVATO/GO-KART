@@ -7,9 +7,25 @@ import State.RitiratoState;
 import model.Pilota;
 
 public class GestorePitStop {
+		//  Singleton 
+	/**
+	 * rendere l’intera classe GestorePitStop un Singleton in modo che:
+	 * esista una sola istanza globale (non più new GestorePitStop() in ogni gara),
+	 * i vari thread (PilotaThread, GaraPilotaQueue) condividano lo stesso oggetto,
+	 * quindi le stesse penalità, soglia di ritiro e stato interno.
+	 */
 	
-		private static final int SOGLIA_RITIRO=80;
-	    public Map<Pilota,Integer> aggiornaPene(Map<Pilota,Integer> totali,List<Pilota> list) {
+		private static final int SOGLIA_RITIRO=90;
+		private GestorePitStop() {}
+		
+		private static class Holder {
+			private static final GestorePitStop INSTANCE= new GestorePitStop();
+		}
+		public static GestorePitStop getInstance() {
+			return Holder.INSTANCE;
+		}
+	//	
+	    public  Map<Pilota,Integer> aggiornaPene(Map<Pilota,Integer> totali,List<Pilota> list) {
 	    	
 	    Random ran = new Random();
 	    Map<Pilota,Integer> random= new HashMap<>();

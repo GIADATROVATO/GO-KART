@@ -2,7 +2,11 @@
 import java.util.*;
 import java.util.concurrent.*;
 
+import Adapter.TelemetriaAdapter;
+import Adapter.TelemetriaEsterna;
+import Composite.TeamComposite;
 import Interface.Observerr;
+import Interface.PartecipanteComposite;
 import Interface.StatoPilota;
 import Interface.Strategia;
 import Observer.ObserverClassifica;
@@ -23,6 +27,7 @@ public class Tester {
 	Pilota p2= new Pilota("Paolo", new strategiaModerata());
 	Pilota p3= new Pilota("Chiara",new strategiaAggressiva());
 	Pilota p4= new Pilota("Franco",new strategiaAggressiva());
+	
 	/*
 	 * Arrays.asList(...) → restituisce una lista fissa, di lunghezza uguale all’array originale.
 	 * Puoi fare get() o set(), ma non add() o remove().
@@ -43,11 +48,35 @@ public class Tester {
 	StatoPilota stato2= new RitiratoState();
 	StatoPilota stato3= new PitStopState();
 	
+	TelemetriaEsterna sistemaEsterno= new TelemetriaEsterna();
+	TelemetriaAdapter adapter= new TelemetriaAdapter(sistemaEsterno);
+	gara.addObserver(adapter);
 	
+	 Pilota cp1 = new Pilota("Leclerc", 250);
+	 Pilota cp2 = new Pilota("Sainz", 260);
+     Pilota cp3 = new Pilota("Verstappen", 240);
+     Pilota cp4 = new Pilota("Perez", 245);
+     TeamComposite ferrari = new TeamComposite("Ferrari");
+     ferrari.add(cp1);
+     ferrari.add(cp2);
+     TeamComposite redbull = new TeamComposite("RedBull");
+     redbull.add(cp3);
+     redbull.add(cp4);
+     TeamComposite campionato = new TeamComposite("Campionato");
+     campionato.add(redbull);
+     campionato.add(ferrari);
+     ferrari.stampaDettagli();
+     redbull.stampaDettagli();
+     System.out.println("TEMPO GENERALE "+campionato.getTempoTotaleTeamComposite());
+     System.out.println();
 	
 	ExecutorService executor= Executors.newFixedThreadPool(1);
 	Future<Void> task1= executor.submit(GaraPilota.corriGiro(gara));
 	task1.get();
 	executor.shutdown();
+	
+
+	
+	
 	}
 }

@@ -826,3 +826,4 @@ ProgettoObserver/.DS_Store
 ProgettoObserver/.settings/org.eclipse.jdt.core.prefs
 ProgettoObserver/bin/.DS_Store
 *.class
+ProgettoObserver/log.txt
