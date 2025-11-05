@@ -31,7 +31,7 @@ import Strategia.strategiaModerata;
 import Subject.GaraPilota;
 import model.Pilota;
 
-public class Tester {
+public class Tester { 
 
 	//private static final Logger logger= Logger.getLogger(Main.class.getName());					//metodo per la classe e istanzio il logger
     private static final Logger logger = LogManager.getLogger(Main.class);

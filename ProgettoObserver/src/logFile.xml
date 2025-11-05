@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status= "INFO" name="MyConfigApp">  
  <!-- il campo status=INFO serve per vedere i messaggi di Log4jz stesso(utile per debug di configurazione -->
-	<Appenders>
+	<Appenders> 
 		<!-- 1 console appender -->
 		<Console target="SYSTEM_OUT" name="ConsoleAppender">
 			<PatternLayout pattern=""/>
