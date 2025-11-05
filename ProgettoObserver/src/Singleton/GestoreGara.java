@@ -28,9 +28,9 @@ public class GestoreGara {
 			private static GestoreGara INSTANCE= new GestoreGara();
 		}
 		public void log(String message) {
-			String timeStamp=LocalDateTime.now()+" " +message;
-			System.out.println("[LOG]"+ timeStamp);
+			String timeStamp=LocalDateTime.now()+"  " +message;
+			System.out.println("[LOG] "+ timeStamp);
 			writer.println(timeStamp);										// scrive su file
-			writer.flush();													//svuota il bueffer per scrivere subito su file
+			writer.flush();													//svuota il buffer per scrivere subito su file
 		}
 }

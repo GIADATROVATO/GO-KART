@@ -1,6 +1,17 @@
 
 import java.util.*;
 import java.util.concurrent.*;
+//sistema di logging 
+import java.io.IOException;
+import java.util.logging.*;
+
+// import 
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
+import com.sun.tools.javac.Main;
 
 import Adapter.TelemetriaAdapter;
 import Adapter.TelemetriaEsterna;
@@ -22,7 +33,31 @@ import model.Pilota;
 
 public class Tester {
 
+	//private static final Logger logger= Logger.getLogger(Main.class.getName());					//metodo per la classe e istanzio il logger
+    private static final Logger logger = LogManager.getLogger(Main.class);
+	
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
+	
+	/*
+	 * 	versione 1 
+	 */
+		
+	/*	
+	setupLogger();	
+	logger.info("applicazione avviata");
+	logger.warning("questo è un warning");
+	logger.severe("questo è un errore");
+	logger.fine("questo è un messaggio di debug");
+	logger.info("applicazione terminata");
+	*/
+		
+	/*
+	 * versione 2 	
+	 */
+	logger.info("Applicazione avviata!");
+	logger.debug("Messaggio di debug (visibile solo se livello >= DEBUG)");
+	logger.error("Esempio di errore");	
+		
 	Pilota p1= new Pilota("Luca", new strategiaAggressiva());
 	Pilota p2= new Pilota("Paolo", new strategiaModerata());
 	Pilota p3= new Pilota("Chiara",new strategiaAggressiva());
@@ -76,7 +111,37 @@ public class Tester {
 	executor.shutdown();
 	
 
-	
+	// COMPITI 
+	/* 1.faccio un package con le utility, con dentor una classe Logger che è di tipo Singleton , voglio un solo logger che scrive su file
+	 * se viene istanziato restiutisce un logger 
+	 * 2. sostuisco i printl coi logger e dove non li ho messi li aggiungo per completezza con info,debug ecc 
+	 *  
+	 */
 	
 	}
+	/*   questo metodo lo ho ora sull xml 
+	private static void setupLogger() {
+        try {
+            // Disattiva i log duplicati sulla console, fa un reset e imposta il lvl globale del logger
+            LogManager.getLogManager().reset();
+
+            // Imposta il livello globale del logger
+            logger.setLevel(Level.ALL);
+
+            // Handler per console, per log su console 
+            ConsoleHandler consoleHandler = new ConsoleHandler();
+            consoleHandler.setLevel(Level.INFO);
+            logger.addHandler(consoleHandler);
+
+            // Handler per file, per log su file 
+            FileHandler fileHandler = new FileHandler("app.log", true);
+            fileHandler.setFormatter(new SimpleFormatter());
+            fileHandler.setLevel(Level.ALL);
+            logger.addHandler(fileHandler);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    */
 }

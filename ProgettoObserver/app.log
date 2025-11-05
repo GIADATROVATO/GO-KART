@@ -1,0 +1,10 @@
+nov 04, 2025 8:35:14 PM Tester main
+INFO: applicazione avviata
+nov 04, 2025 8:35:14 PM Tester main
+WARNING: questo è un warning
+nov 04, 2025 8:35:14 PM Tester main
+SEVERE: questo è un errore
+nov 04, 2025 8:35:14 PM Tester main
+FINE: questo è un messaggio di debug
+nov 04, 2025 8:35:14 PM Tester main
+INFO: applicazione terminata

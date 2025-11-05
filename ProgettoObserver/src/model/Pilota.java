@@ -3,6 +3,7 @@ package model;
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;
 
+//
 import Interface.PartecipanteComposite;
 import Interface.StatoPilota;
 import Interface.Strategia;
