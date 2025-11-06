@@ -2,3 +2,418 @@
 [2025-11-04 21:33:26] ERROR Main:59 - Esempio di errore
 [2025-11-04 21:34:12] INFO  Main:57 - Applicazione avviata!
 [2025-11-04 21:34:12] ERROR Main:59 - Esempio di errore
+[2025-11-05 10:30:57] INFO  Main:57 - Applicazione avviata!
+[2025-11-05 10:30:57] ERROR Main:59 - Esempio di errore
+[2025-11-05 14:46:55] INFO  Main:57 - Applicazione avviata!
+[2025-11-05 14:46:55] ERROR Main:59 - Esempio di errore
+[2025-11-05 17:17:15] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 17:17:15] ERROR Main:60 - Esempio di errore
+[2025-11-05 17:17:59] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 17:17:59] ERROR Main:60 - Esempio di errore
+[2025-11-05 17:18:56] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 17:18:56] ERROR Main:60 - Esempio di errore
+[2025-11-05 17:19:52] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 17:19:52] ERROR Main:60 - Esempio di errore
+[2025-11-05 17:20:51] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 17:20:51] ERROR Main:60 - Esempio di errore
+[2025-11-05 20:49:03] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 20:49:03] ERROR Main:60 - Esempio di errore
+[2025-11-05 20:49:03] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:49:03] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 34 (penalità 6 )  telemetria 34.0
+[2025-11-05 20:49:03] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 13 (penalità 9 )  telemetria 13.0
+[2025-11-05 20:49:03] INFO  GaraPilota:77 - *** conteggio ***Franco totale 57 (penalità 10 )  telemetria 57.0
+[2025-11-05 20:49:03] INFO  GaraPilota:77 - *** conteggio ***Luca totale 7 (penalità 1 )  telemetria 7.0
+[2025-11-05 20:49:03] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 27.75 giro 1
+[2025-11-05 20:49:03] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 20:49:03] INFO  GaraPilota:104 - Luca 7
+[2025-11-05 20:49:03] INFO  GaraPilota:104 - Chiara 13
+[2025-11-05 20:49:03] INFO  GaraPilota:104 - Paolo 34
+[2025-11-05 20:49:03] INFO  GaraPilota:104 - Franco 57
+[2025-11-05 20:49:05] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:49:05] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 139 (penalità 9 )  telemetria 69.5
+[2025-11-05 20:49:05] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 39 (penalità 4 )  telemetria 19.5
+[2025-11-05 20:49:05] INFO  GaraPilota:77 - *** conteggio ***Franco totale 235 (penalità 3 )  telemetria 117.5
+[2025-11-05 20:49:05] INFO  GaraPilota:77 - *** conteggio ***Luca totale 43 (penalità 3 )  telemetria 21.5
+[2025-11-05 20:49:05] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 114.0 giro 2
+[2025-11-05 20:49:05] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 20:49:05] INFO  GaraPilota:104 - Chiara 39
+[2025-11-05 20:49:05] INFO  GaraPilota:104 - Luca 43
+[2025-11-05 20:49:05] INFO  GaraPilota:104 - Paolo 139
+[2025-11-05 20:49:05] INFO  GaraPilota:104 - Franco 235
+[2025-11-05 20:49:07] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:49:07] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 88 (penalità 2 )  telemetria 29.333333333333332
+[2025-11-05 20:49:07] INFO  GaraPilota:77 - *** conteggio ***Franco totale 598 (penalità 2 )  telemetria 199.33333333333334
+[2025-11-05 20:49:07] INFO  GaraPilota:77 - *** conteggio ***Luca totale 187 (penalità 6 )  telemetria 62.333333333333336
+[2025-11-05 20:49:07] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 291.0 giro 3
+[2025-11-05 20:49:07] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 20:49:07] INFO  GaraPilota:104 - Chiara 88
+[2025-11-05 20:49:07] INFO  GaraPilota:104 - Luca 187
+[2025-11-05 20:49:07] INFO  GaraPilota:104 - Franco 598
+[2025-11-05 20:49:09] INFO  GaraPilota:121 -  *** Vincitore ***Chiara
+[2025-11-05 20:53:03] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 20:53:03] ERROR Main:60 - Esempio di errore
+[2025-11-05 20:53:03] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:53:03] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 41 (penalità 3 )  telemetria 41.0
+[2025-11-05 20:53:03] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 80 (penalità 9 )  telemetria 80.0
+[2025-11-05 20:53:03] INFO  GaraPilota:77 - *** conteggio ***Franco totale 27 (penalità 4 )  telemetria 27.0
+[2025-11-05 20:53:03] INFO  GaraPilota:77 - *** conteggio ***Luca totale 21 (penalità 4 )  telemetria 21.0
+[2025-11-05 20:53:03] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 42.25 giro 1
+[2025-11-05 20:53:03] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 20:53:03] INFO  GaraPilota:104 - Luca 21
+[2025-11-05 20:53:03] INFO  GaraPilota:104 - Franco 27
+[2025-11-05 20:53:03] INFO  GaraPilota:104 - Paolo 41
+[2025-11-05 20:53:03] INFO  GaraPilota:104 - Chiara 80
+[2025-11-05 20:53:05] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:53:05] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 208 (penalità 4 )  telemetria 104.0
+[2025-11-05 20:53:05] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 282 (penalità 7 )  telemetria 141.0
+[2025-11-05 20:53:05] INFO  GaraPilota:77 - *** conteggio ***Franco totale 118 (penalità 2 )  telemetria 59.0
+[2025-11-05 20:53:05] INFO  GaraPilota:77 - *** conteggio ***Luca totale 88 (penalità 8 )  telemetria 44.0
+[2025-11-05 20:53:05] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 174.0 giro 2
+[2025-11-05 20:53:05] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 20:53:05] INFO  GaraPilota:104 - Luca 88
+[2025-11-05 20:53:05] INFO  GaraPilota:104 - Franco 118
+[2025-11-05 20:53:05] INFO  GaraPilota:104 - Paolo 208
+[2025-11-05 20:53:05] INFO  GaraPilota:104 - Chiara 282
+[2025-11-05 20:53:07] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:53:07] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 513 (penalità 4 )  telemetria 171.0
+[2025-11-05 20:53:07] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 617 (penalità 3 )  telemetria 205.66666666666666
+[2025-11-05 20:53:07] INFO  GaraPilota:77 - *** conteggio ***Franco totale 362 (penalità 7 )  telemetria 120.66666666666667
+[2025-11-05 20:53:07] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 497.3333333333333 giro 3
+[2025-11-05 20:53:07] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 20:53:07] INFO  GaraPilota:104 - Franco 362
+[2025-11-05 20:53:07] INFO  GaraPilota:104 - Paolo 513
+[2025-11-05 20:53:07] INFO  GaraPilota:104 - Chiara 617
+[2025-11-05 20:53:09] INFO  GaraPilota:121 -  *** Vincitore ***Franco
+[2025-11-05 20:54:29] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 20:54:29] ERROR Main:60 - Esempio di errore
+[2025-11-05 20:54:29] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:54:29] INFO  GaraPilota:77 - *** conteggio ***Luca totale 64 (penalità 1 )  telemetria 64.0
+[2025-11-05 20:54:29] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 94 (penalità 4 )  telemetria 94.0
+[2025-11-05 20:54:29] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 37 (penalità 10 )  telemetria 37.0
+[2025-11-05 20:54:29] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 65.0 giro 1
+[2025-11-05 20:54:29] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 20:54:29] INFO  GaraPilota:104 - Paolo 37
+[2025-11-05 20:54:29] INFO  GaraPilota:104 - Luca 64
+[2025-11-05 20:54:29] INFO  GaraPilota:104 - Chiara 94
+[2025-11-05 20:54:31] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:54:31] INFO  GaraPilota:77 - *** conteggio ***Luca totale 229 (penalità 7 )  telemetria 114.5
+[2025-11-05 20:54:31] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 368 (penalità 1 )  telemetria 184.0
+[2025-11-05 20:54:31] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 106 (penalità 5 )  telemetria 53.0
+[2025-11-05 20:54:31] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 234.33333333333334 giro 2
+[2025-11-05 20:54:31] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 20:54:31] INFO  GaraPilota:104 - Paolo 106
+[2025-11-05 20:54:31] INFO  GaraPilota:104 - Luca 229
+[2025-11-05 20:54:31] INFO  GaraPilota:104 - Chiara 368
+[2025-11-05 20:54:33] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 20:54:33] INFO  GaraPilota:77 - *** conteggio ***Luca totale 504 (penalità 6 )  telemetria 168.0
+[2025-11-05 20:54:33] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 252 (penalità 6 )  telemetria 84.0
+[2025-11-05 20:54:33] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 378.0 giro 3
+[2025-11-05 20:54:33] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 20:54:33] INFO  GaraPilota:104 - Paolo 252
+[2025-11-05 20:54:33] INFO  GaraPilota:104 - Luca 504
+[2025-11-05 20:54:35] INFO  GaraPilota:121 -  *** Vincitore ***Paolo
+[2025-11-05 21:10:05] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 21:10:05] ERROR Main:60 - Esempio di errore
+[2025-11-05 21:10:05] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:10:05] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 58 (penalità 5 )  telemetria 58.0
+[2025-11-05 21:10:05] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 91 (penalità 8 )  telemetria 91.0
+[2025-11-05 21:10:05] INFO  GaraPilota:77 - *** conteggio ***Franco totale 29 (penalità 2 )  telemetria 29.0
+[2025-11-05 21:10:05] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 4 (penalità 3 )  telemetria 4.0
+[2025-11-05 21:10:05] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 45.5 giro 1
+[2025-11-05 21:10:05] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 21:10:05] INFO  GaraPilota:104 - Chiara 4
+[2025-11-05 21:10:05] INFO  GaraPilota:104 - Franco 29
+[2025-11-05 21:10:05] INFO  GaraPilota:104 - Paolo 58
+[2025-11-05 21:10:05] INFO  GaraPilota:104 - Carlotta 91
+[2025-11-05 21:10:07] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:10:07] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 199 (penalità 10 )  telemetria 99.5
+[2025-11-05 21:10:07] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 340 (penalità 3 )  telemetria 170.0
+[2025-11-05 21:10:07] INFO  GaraPilota:77 - *** conteggio ***Franco totale 105 (penalità 5 )  telemetria 52.5
+[2025-11-05 21:10:07] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 48 (penalità 6 )  telemetria 24.0
+[2025-11-05 21:10:07] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 173.0 giro 2
+[2025-11-05 21:10:07] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 21:10:07] INFO  GaraPilota:104 - Chiara 48
+[2025-11-05 21:10:07] INFO  GaraPilota:104 - Franco 105
+[2025-11-05 21:10:07] INFO  GaraPilota:104 - Paolo 199
+[2025-11-05 21:10:07] INFO  GaraPilota:104 - Carlotta 340
+[2025-11-05 21:10:09] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:10:09] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 757 (penalità 2 )  telemetria 252.33333333333334
+[2025-11-05 21:10:09] INFO  GaraPilota:77 - *** conteggio ***Franco totale 234 (penalità 2 )  telemetria 78.0
+[2025-11-05 21:10:09] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 495.5 giro 3
+[2025-11-05 21:10:09] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 21:10:09] INFO  GaraPilota:104 - Franco 234
+[2025-11-05 21:10:09] INFO  GaraPilota:104 - Carlotta 757
+[2025-11-05 21:10:11] INFO  GaraPilota:121 -  *** Vincitore ***Franco
+[2025-11-05 21:12:31] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 21:12:31] ERROR Main:60 - Esempio di errore
+[2025-11-05 21:12:31] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:12:31] INFO  GaraPilota:77 - *** conteggio ***Franco totale 32 (penalità 7 )  telemetria 32.0
+[2025-11-05 21:12:31] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 68 (penalità 4 )  telemetria 68.0
+[2025-11-05 21:12:31] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 83 (penalità 9 )  telemetria 83.0
+[2025-11-05 21:12:31] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 62 (penalità 1 )  telemetria 62.0
+[2025-11-05 21:12:31] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 61.25 giro 1
+[2025-11-05 21:12:31] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 21:12:31] INFO  GaraPilota:104 - Franco 32
+[2025-11-05 21:12:31] INFO  GaraPilota:104 - Carlotta 62
+[2025-11-05 21:12:31] INFO  GaraPilota:104 - Paolo 68
+[2025-11-05 21:12:31] INFO  GaraPilota:104 - Chiara 83
+[2025-11-05 21:12:31] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:12:31] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:12:31] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:12:31] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:12:33] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:12:33] INFO  GaraPilota:77 - *** conteggio ***Franco totale 90 (penalità 1 )  telemetria 45.0
+[2025-11-05 21:12:33] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 243 (penalità 6 )  telemetria 121.5
+[2025-11-05 21:12:33] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 294 (penalità 5 )  telemetria 147.0
+[2025-11-05 21:12:33] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 209.0 giro 2
+[2025-11-05 21:12:33] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 21:12:33] INFO  GaraPilota:104 - Franco 90
+[2025-11-05 21:12:33] INFO  GaraPilota:104 - Paolo 243
+[2025-11-05 21:12:33] INFO  GaraPilota:104 - Chiara 294
+[2025-11-05 21:12:33] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:12:33] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:12:33] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:12:35] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:12:35] INFO  GaraPilota:77 - *** conteggio ***Franco totale 188 (penalità 6 )  telemetria 62.666666666666664
+[2025-11-05 21:12:35] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 537 (penalità 2 )  telemetria 179.0
+[2025-11-05 21:12:35] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 728 (penalità 5 )  telemetria 242.66666666666666
+[2025-11-05 21:12:35] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 484.3333333333333 giro 3
+[2025-11-05 21:12:35] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 21:12:35] INFO  GaraPilota:104 - Franco 188
+[2025-11-05 21:12:35] INFO  GaraPilota:104 - Paolo 537
+[2025-11-05 21:12:35] INFO  GaraPilota:104 - Chiara 728
+[2025-11-05 21:12:35] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:12:35] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:12:35] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:12:37] INFO  GaraPilota:121 -  *** Vincitore ***Franco
+[2025-11-05 21:18:13] INFO  Main:58 - Applicazione avviata!
+[2025-11-05 21:18:13] ERROR Main:60 - Esempio di errore
+[2025-11-05 21:18:13] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:18:13] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 14 (penalità 2 )  telemetria 14.0
+[2025-11-05 21:18:13] INFO  GaraPilota:77 - *** conteggio ***Franco totale 42 (penalità 4 )  telemetria 42.0
+[2025-11-05 21:18:13] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 72 (penalità 7 )  telemetria 72.0
+[2025-11-05 21:18:13] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 65 (penalità 6 )  telemetria 65.0
+[2025-11-05 21:18:13] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 48.25 giro 1
+[2025-11-05 21:18:13] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 21:18:13] INFO  GaraPilota:104 - Paolo 14
+[2025-11-05 21:18:13] INFO  GaraPilota:104 - Franco 42
+[2025-11-05 21:18:13] INFO  GaraPilota:104 - Carlotta 65
+[2025-11-05 21:18:13] INFO  GaraPilota:104 - Chiara 72
+[2025-11-05 21:18:13] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:18:13] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:18:13] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:18:13] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:18:15] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:18:15] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 68 (penalità 4 )  telemetria 34.0
+[2025-11-05 21:18:15] INFO  GaraPilota:77 - *** conteggio ***Franco totale 153 (penalità 10 )  telemetria 76.5
+[2025-11-05 21:18:15] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 240 (penalità 5 )  telemetria 120.0
+[2025-11-05 21:18:15] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 244 (penalità 2 )  telemetria 122.0
+[2025-11-05 21:18:15] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 176.25 giro 2
+[2025-11-05 21:18:15] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 21:18:15] INFO  GaraPilota:104 - Paolo 68
+[2025-11-05 21:18:15] INFO  GaraPilota:104 - Franco 153
+[2025-11-05 21:18:15] INFO  GaraPilota:104 - Chiara 240
+[2025-11-05 21:18:15] INFO  GaraPilota:104 - Carlotta 244
+[2025-11-05 21:18:15] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:18:15] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:18:15] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:18:15] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:18:17] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:18:17] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 216 (penalità 8 )  telemetria 72.0
+[2025-11-05 21:18:17] INFO  GaraPilota:77 - *** conteggio ***Franco totale 410 (penalità 8 )  telemetria 136.66666666666666
+[2025-11-05 21:18:17] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 567 (penalità 2 )  telemetria 189.0
+[2025-11-05 21:18:17] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 281 (penalità 3 )  telemetria 93.66666666666667
+[2025-11-05 21:18:17] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 368.5 giro 3
+[2025-11-05 21:18:17] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 21:18:17] INFO  GaraPilota:104 - Paolo 216
+[2025-11-05 21:18:17] INFO  GaraPilota:104 - Carlotta 281
+[2025-11-05 21:18:17] INFO  GaraPilota:104 - Franco 410
+[2025-11-05 21:18:17] INFO  GaraPilota:104 - Chiara 567
+[2025-11-05 21:18:17] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:18:17] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:18:17] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:18:17] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:18:19] INFO  GaraPilota:121 -  *** Vincitore ***Paolo
+[2025-11-05 21:19:19] INFO  Main:59 - Applicazione avviata!
+[2025-11-05 21:19:19] ERROR Main:61 - Esempio di errore
+[2025-11-05 21:19:19] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:19:19] INFO  GaraPilota:77 - *** conteggio ***Franco totale 59 (penalità 3 )  telemetria 59.0
+[2025-11-05 21:19:19] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 78 (penalità 10 )  telemetria 78.0
+[2025-11-05 21:19:19] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 54 (penalità 3 )  telemetria 54.0
+[2025-11-05 21:19:19] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 40 (penalità 7 )  telemetria 40.0
+[2025-11-05 21:19:19] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 57.75 giro 1
+[2025-11-05 21:19:19] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 21:19:19] INFO  GaraPilota:104 - Paolo 40
+[2025-11-05 21:19:19] INFO  GaraPilota:104 - Chiara 54
+[2025-11-05 21:19:19] INFO  GaraPilota:104 - Franco 59
+[2025-11-05 21:19:19] INFO  GaraPilota:104 - Carlotta 78
+[2025-11-05 21:19:19] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:19:19] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:19:19] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:19:19] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:19:21] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:19:21] INFO  GaraPilota:77 - *** conteggio ***Franco totale 257 (penalità 6 )  telemetria 128.5
+[2025-11-05 21:19:21] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 283 (penalità 1 )  telemetria 141.5
+[2025-11-05 21:19:21] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 242 (penalità 8 )  telemetria 121.0
+[2025-11-05 21:19:21] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 183 (penalità 8 )  telemetria 91.5
+[2025-11-05 21:19:21] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 241.25 giro 2
+[2025-11-05 21:19:21] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 21:19:21] INFO  GaraPilota:104 - Paolo 183
+[2025-11-05 21:19:21] INFO  GaraPilota:104 - Chiara 242
+[2025-11-05 21:19:21] INFO  GaraPilota:104 - Franco 257
+[2025-11-05 21:19:21] INFO  GaraPilota:104 - Carlotta 283
+[2025-11-05 21:19:21] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:19:21] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:19:21] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:19:21] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:19:23] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:19:23] INFO  GaraPilota:77 - *** conteggio ***Franco totale 350 (penalità 8 )  telemetria 116.66666666666667
+[2025-11-05 21:19:23] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 668 (penalità 7 )  telemetria 222.66666666666666
+[2025-11-05 21:19:23] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 246 (penalità 1 )  telemetria 82.0
+[2025-11-05 21:19:23] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 518 (penalità 3 )  telemetria 172.66666666666666
+[2025-11-05 21:19:23] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 445.5 giro 3
+[2025-11-05 21:19:23] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 21:19:23] INFO  GaraPilota:104 - Chiara 246
+[2025-11-05 21:19:23] INFO  GaraPilota:104 - Franco 350
+[2025-11-05 21:19:23] INFO  GaraPilota:104 - Paolo 518
+[2025-11-05 21:19:23] INFO  GaraPilota:104 - Carlotta 668
+[2025-11-05 21:19:23] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:19:23] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:19:23] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:19:23] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:19:25] INFO  GaraPilota:121 -  *** Vincitore ***Chiara
+[2025-11-05 21:20:34] INFO  Main:59 - Applicazione avviata!
+[2025-11-05 21:20:34] ERROR Main:61 - Esempio di errore
+[2025-11-05 21:20:34] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:20:34] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 14 (penalità 4 )  telemetria 14.0
+[2025-11-05 21:20:34] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 17 (penalità 8 )  telemetria 17.0
+[2025-11-05 21:20:34] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 83 (penalità 3 )  telemetria 83.0
+[2025-11-05 21:20:34] INFO  GaraPilota:77 - *** conteggio ***Franco totale 57 (penalità 6 )  telemetria 57.0
+[2025-11-05 21:20:34] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 42.75 giro 1
+[2025-11-05 21:20:34] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 21:20:34] INFO  GaraPilota:104 - Paolo 14
+[2025-11-05 21:20:34] INFO  GaraPilota:104 - Chiara 17
+[2025-11-05 21:20:34] INFO  GaraPilota:104 - Franco 57
+[2025-11-05 21:20:34] INFO  GaraPilota:104 - Carlotta 83
+[2025-11-05 21:20:34] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:20:34] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:20:34] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:20:34] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:20:36] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:20:36] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 55 (penalità 6 )  telemetria 27.5
+[2025-11-05 21:20:36] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 100 (penalità 5 )  telemetria 50.0
+[2025-11-05 21:20:36] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 314 (penalità 7 )  telemetria 157.0
+[2025-11-05 21:20:36] INFO  GaraPilota:77 - *** conteggio ***Franco totale 232 (penalità 3 )  telemetria 116.0
+[2025-11-05 21:20:36] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 175.25 giro 2
+[2025-11-05 21:20:36] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 21:20:36] INFO  GaraPilota:104 - Paolo 55
+[2025-11-05 21:20:36] INFO  GaraPilota:104 - Chiara 100
+[2025-11-05 21:20:36] INFO  GaraPilota:104 - Franco 232
+[2025-11-05 21:20:36] INFO  GaraPilota:104 - Carlotta 314
+[2025-11-05 21:20:36] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:20:36] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:20:36] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:20:36] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:20:38] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:20:38] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 146 (penalità 8 )  telemetria 48.666666666666664
+[2025-11-05 21:20:38] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 329 (penalità 6 )  telemetria 109.66666666666667
+[2025-11-05 21:20:38] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 698 (penalità 8 )  telemetria 232.66666666666666
+[2025-11-05 21:20:38] INFO  GaraPilota:77 - *** conteggio ***Franco totale 257 (penalità 6 )  telemetria 85.66666666666667
+[2025-11-05 21:20:38] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 357.5 giro 3
+[2025-11-05 21:20:38] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 21:20:38] INFO  GaraPilota:104 - Paolo 146
+[2025-11-05 21:20:38] INFO  GaraPilota:104 - Franco 257
+[2025-11-05 21:20:38] INFO  GaraPilota:104 - Chiara 329
+[2025-11-05 21:20:38] INFO  GaraPilota:104 - Carlotta 698
+[2025-11-05 21:20:38] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:20:38] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:20:38] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:20:38] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:20:40] INFO  GaraPilota:121 -  *** Vincitore ***Paolo
+[2025-11-05 21:21:20] INFO  Main:59 - Applicazione avviata!
+[2025-11-05 21:21:20] ERROR Main:61 - Esempio di errore
+[2025-11-05 21:21:20] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:21:20] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 37 (penalità 10 )  telemetria 37.0
+[2025-11-05 21:21:20] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 75 (penalità 8 )  telemetria 75.0
+[2025-11-05 21:21:20] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 15 (penalità 2 )  telemetria 15.0
+[2025-11-05 21:21:20] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 42.333333333333336 giro 1
+[2025-11-05 21:21:20] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 21:21:20] INFO  GaraPilota:104 - Paolo 15
+[2025-11-05 21:21:20] INFO  GaraPilota:104 - Carlotta 37
+[2025-11-05 21:21:20] INFO  GaraPilota:104 - Chiara 75
+[2025-11-05 21:21:20] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:21:20] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:21:20] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:21:22] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:21:22] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 196 (penalità 9 )  telemetria 98.0
+[2025-11-05 21:21:22] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 306 (penalità 9 )  telemetria 153.0
+[2025-11-05 21:21:22] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 95 (penalità 6 )  telemetria 47.5
+[2025-11-05 21:21:22] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 199.0 giro 2
+[2025-11-05 21:21:22] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 21:21:22] INFO  GaraPilota:104 - Paolo 95
+[2025-11-05 21:21:22] INFO  GaraPilota:104 - Carlotta 196
+[2025-11-05 21:21:22] INFO  GaraPilota:104 - Chiara 306
+[2025-11-05 21:21:22] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:21:22] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:21:22] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:21:24] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:21:24] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 503 (penalità 10 )  telemetria 167.66666666666666
+[2025-11-05 21:21:24] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 773 (penalità 8 )  telemetria 257.6666666666667
+[2025-11-05 21:21:24] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 250 (penalità 4 )  telemetria 83.33333333333333
+[2025-11-05 21:21:24] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 508.6666666666667 giro 3
+[2025-11-05 21:21:24] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 21:21:24] INFO  GaraPilota:104 - Paolo 250
+[2025-11-05 21:21:24] INFO  GaraPilota:104 - Carlotta 503
+[2025-11-05 21:21:24] INFO  GaraPilota:104 - Chiara 773
+[2025-11-05 21:21:24] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:21:24] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:21:24] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:21:26] INFO  GaraPilota:121 -  *** Vincitore ***Paolo
+[2025-11-05 21:22:01] INFO  Main:59 - Applicazione avviata!
+[2025-11-05 21:22:01] ERROR Main:61 - Esempio di errore
+[2025-11-05 21:22:01] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:22:01] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 10 (penalità 4 )  telemetria 10.0
+[2025-11-05 21:22:01] INFO  GaraPilota:77 - *** conteggio ***Franco totale 53 (penalità 5 )  telemetria 53.0
+[2025-11-05 21:22:01] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 77 (penalità 8 )  telemetria 77.0
+[2025-11-05 21:22:01] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 51 (penalità 3 )  telemetria 51.0
+[2025-11-05 21:22:01] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 47.75 giro 1
+[2025-11-05 21:22:01] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***1
+[2025-11-05 21:22:01] INFO  GaraPilota:104 - Chiara 10
+[2025-11-05 21:22:01] INFO  GaraPilota:104 - Carlotta 51
+[2025-11-05 21:22:01] INFO  GaraPilota:104 - Franco 53
+[2025-11-05 21:22:01] INFO  GaraPilota:104 - Paolo 77
+[2025-11-05 21:22:01] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:22:01] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:22:01] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:22:01] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:22:03] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:22:03] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 43 (penalità 9 )  telemetria 21.5
+[2025-11-05 21:22:03] INFO  GaraPilota:77 - *** conteggio ***Franco totale 233 (penalità 1 )  telemetria 116.5
+[2025-11-05 21:22:03] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 237 (penalità 10 )  telemetria 118.5
+[2025-11-05 21:22:03] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 218 (penalità 4 )  telemetria 109.0
+[2025-11-05 21:22:03] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 182.75 giro 2
+[2025-11-05 21:22:03] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***2
+[2025-11-05 21:22:03] INFO  GaraPilota:104 - Chiara 43
+[2025-11-05 21:22:03] INFO  GaraPilota:104 - Carlotta 218
+[2025-11-05 21:22:03] INFO  GaraPilota:104 - Franco 233
+[2025-11-05 21:22:03] INFO  GaraPilota:104 - Paolo 237
+[2025-11-05 21:22:03] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:22:03] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:22:03] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:22:03] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:22:05] INFO  GaraPilota:55 -  *** GIRO *** 
+[2025-11-05 21:22:05] INFO  GaraPilota:77 - *** conteggio ***Chiara totale 140 (penalità 6 )  telemetria 46.666666666666664
+[2025-11-05 21:22:05] INFO  GaraPilota:77 - *** conteggio ***Franco totale 635 (penalità 8 )  telemetria 211.66666666666666
+[2025-11-05 21:22:05] INFO  GaraPilota:77 - *** conteggio ***Paolo totale 521 (penalità 8 )  telemetria 173.66666666666666
+[2025-11-05 21:22:05] INFO  GaraPilota:77 - *** conteggio ***Carlotta totale 553 (penalità 6 )  telemetria 184.33333333333334
+[2025-11-05 21:22:05] INFO  GaraPilota:88 - [TELEMETRIA] Media su piloti attivi 462.25 giro 3
+[2025-11-05 21:22:05] INFO  GaraPilota:101 - *** classifica ordinata dopo il giro con eliminazione ***3
+[2025-11-05 21:22:05] INFO  GaraPilota:104 - Chiara 140
+[2025-11-05 21:22:05] INFO  GaraPilota:104 - Paolo 521
+[2025-11-05 21:22:05] INFO  GaraPilota:104 - Carlotta 553
+[2025-11-05 21:22:05] INFO  GaraPilota:104 - Franco 635
+[2025-11-05 21:22:05] INFO  GaraPilota:108 -  - Carlotta
+[2025-11-05 21:22:05] INFO  GaraPilota:108 -  - Paolo
+[2025-11-05 21:22:05] INFO  GaraPilota:108 -  - Chiara
+[2025-11-05 21:22:05] INFO  GaraPilota:108 -  - Franco
+[2025-11-05 21:22:07] INFO  GaraPilota:121 -  *** Vincitore ***Chiara

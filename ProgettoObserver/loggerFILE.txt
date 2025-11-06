@@ -1,0 +1,105 @@
+2025-11-05Paolo - Totale: 34- Penalità: 62025-11-05Chiara - Totale: 13- Penalità: 92025-11-05Franco - Totale: 57- Penalità: 102025-11-05Luca - Totale: 7- Penalità: 12025-11-05Paolo - Totale: 139- Penalità: 92025-11-05Chiara - Totale: 39- Penalità: 42025-11-05Franco - Totale: 235- Penalità: 32025-11-05Luca - Totale: 43- Penalità: 32025-11-05Chiara - Totale: 88- Penalità: 22025-11-05Franco - Totale: 598- Penalità: 22025-11-05Luca - Totale: 187- Penalità: 62025-11-05VincitoreChiara2025-11-05Paolo - Totale: 41- Penalità: 3
+2025-11-05Chiara - Totale: 80- Penalità: 9
+2025-11-05Franco - Totale: 27- Penalità: 4
+2025-11-05Luca - Totale: 21- Penalità: 4
+2025-11-05Paolo - Totale: 208- Penalità: 4
+2025-11-05Chiara - Totale: 282- Penalità: 7
+2025-11-05Franco - Totale: 118- Penalità: 2
+2025-11-05Luca - Totale: 88- Penalità: 8
+2025-11-05Paolo - Totale: 513- Penalità: 4
+2025-11-05Chiara - Totale: 617- Penalità: 3
+2025-11-05Franco - Totale: 362- Penalità: 7
+2025-11-05Vincitore Franco
+2025-11-05T20:54:29.908508  Luca - Totale: 64- Penalità: 1
+2025-11-05T20:54:29.911566  Chiara - Totale: 94- Penalità: 4
+2025-11-05T20:54:29.911990  Paolo - Totale: 37- Penalità: 10
+2025-11-05T20:54:31.935605  Luca - Totale: 229- Penalità: 7
+2025-11-05T20:54:31.936183  Chiara - Totale: 368- Penalità: 1
+2025-11-05T20:54:31.936920  Paolo - Totale: 106- Penalità: 5
+2025-11-05T20:54:33.944273  Luca - Totale: 504- Penalità: 6
+2025-11-05T20:54:33.945043  Paolo - Totale: 252- Penalità: 6
+2025-11-05T20:54:35.951611  Vincitore Paolo
+2025-11-05T21:10:05.175987  Paolo - Totale: 58- Penalità: 5
+2025-11-05T21:10:05.180435  Carlotta - Totale: 91- Penalità: 8
+2025-11-05T21:10:05.181118  Franco - Totale: 29- Penalità: 2
+2025-11-05T21:10:05.181870  Chiara - Totale: 4- Penalità: 3
+2025-11-05T21:10:07.218415  Paolo - Totale: 199- Penalità: 10
+2025-11-05T21:10:07.219174  Carlotta - Totale: 340- Penalità: 3
+2025-11-05T21:10:07.219830  Franco - Totale: 105- Penalità: 5
+2025-11-05T21:10:07.220448  Chiara - Totale: 48- Penalità: 6
+2025-11-05T21:10:09.229125  Carlotta - Totale: 757- Penalità: 2
+2025-11-05T21:10:09.229728  Franco - Totale: 234- Penalità: 2
+2025-11-05T21:10:11.238428  Vincitore Franco
+2025-11-05T21:12:31.342574  Franco - Totale: 32- Penalità: 7
+2025-11-05T21:12:31.346441  Paolo - Totale: 68- Penalità: 4
+2025-11-05T21:12:31.347188  Chiara - Totale: 83- Penalità: 9
+2025-11-05T21:12:31.347851  Carlotta - Totale: 62- Penalità: 1
+2025-11-05T21:12:33.376570  Franco - Totale: 90- Penalità: 1
+2025-11-05T21:12:33.377859  Paolo - Totale: 243- Penalità: 6
+2025-11-05T21:12:33.378870  Chiara - Totale: 294- Penalità: 5
+2025-11-05T21:12:35.387826  Franco - Totale: 188- Penalità: 6
+2025-11-05T21:12:35.388890  Paolo - Totale: 537- Penalità: 2
+2025-11-05T21:12:35.389664  Chiara - Totale: 728- Penalità: 5
+2025-11-05T21:12:37.402211  Vincitore Franco
+2025-11-05T21:18:13.228955  Paolo - Totale: 14- Penalità: 2
+2025-11-05T21:18:13.231551  Franco - Totale: 42- Penalità: 4
+2025-11-05T21:18:13.231946  Chiara - Totale: 72- Penalità: 7
+2025-11-05T21:18:13.232421  Carlotta - Totale: 65- Penalità: 6
+2025-11-05T21:18:15.264475  Paolo - Totale: 68- Penalità: 4
+2025-11-05T21:18:15.265778  Franco - Totale: 153- Penalità: 10
+2025-11-05T21:18:15.266724  Chiara - Totale: 240- Penalità: 5
+2025-11-05T21:18:15.267467  Carlotta - Totale: 244- Penalità: 2
+2025-11-05T21:18:17.276910  Paolo - Totale: 216- Penalità: 8
+2025-11-05T21:18:17.278031  Franco - Totale: 410- Penalità: 8
+2025-11-05T21:18:17.278773  Chiara - Totale: 567- Penalità: 2
+2025-11-05T21:18:17.279437  Carlotta - Totale: 281- Penalità: 3
+2025-11-05T21:18:19.290665  Vincitore Paolo
+2025-11-05T21:19:19.610908  Franco - Totale: 59- Penalità: 3
+2025-11-05T21:19:19.613055  Carlotta - Totale: 78- Penalità: 10
+2025-11-05T21:19:19.613531  Chiara - Totale: 54- Penalità: 3
+2025-11-05T21:19:19.614003  Paolo - Totale: 40- Penalità: 7
+2025-11-05T21:19:21.633699  Franco - Totale: 257- Penalità: 6
+2025-11-05T21:19:21.635454  Carlotta - Totale: 283- Penalità: 1
+2025-11-05T21:19:21.636350  Chiara - Totale: 242- Penalità: 8
+2025-11-05T21:19:21.637480  Paolo - Totale: 183- Penalità: 8
+2025-11-05T21:19:23.647293  Franco - Totale: 350- Penalità: 8
+2025-11-05T21:19:23.648266  Carlotta - Totale: 668- Penalità: 7
+2025-11-05T21:19:23.649187  Chiara - Totale: 246- Penalità: 1
+2025-11-05T21:19:23.650058  Paolo - Totale: 518- Penalità: 3
+2025-11-05T21:19:25.660099  Vincitore Chiara
+2025-11-05T21:20:34.561953  Paolo - Totale: 14- Penalità: 4
+2025-11-05T21:20:34.564606  Chiara - Totale: 17- Penalità: 8
+2025-11-05T21:20:34.564972  Carlotta - Totale: 83- Penalità: 3
+2025-11-05T21:20:34.565371  Franco - Totale: 57- Penalità: 6
+2025-11-05T21:20:36.599502  Paolo - Totale: 55- Penalità: 6
+2025-11-05T21:20:36.600614  Chiara - Totale: 100- Penalità: 5
+2025-11-05T21:20:36.601461  Carlotta - Totale: 314- Penalità: 7
+2025-11-05T21:20:36.602174  Franco - Totale: 232- Penalità: 3
+2025-11-05T21:20:38.613968  Paolo - Totale: 146- Penalità: 8
+2025-11-05T21:20:38.614745  Chiara - Totale: 329- Penalità: 6
+2025-11-05T21:20:38.615687  Carlotta - Totale: 698- Penalità: 8
+2025-11-05T21:20:38.616442  Franco - Totale: 257- Penalità: 6
+2025-11-05T21:20:40.625740  Vincitore Paolo
+2025-11-05T21:21:20.511632  Carlotta - Totale: 37- Penalità: 10
+2025-11-05T21:21:20.515976  Chiara - Totale: 75- Penalità: 8
+2025-11-05T21:21:20.517081  Paolo - Totale: 15- Penalità: 2
+2025-11-05T21:21:22.546456  Carlotta - Totale: 196- Penalità: 9
+2025-11-05T21:21:22.547399  Chiara - Totale: 306- Penalità: 9
+2025-11-05T21:21:22.548364  Paolo - Totale: 95- Penalità: 6
+2025-11-05T21:21:24.555361  Carlotta - Totale: 503- Penalità: 10
+2025-11-05T21:21:24.556307  Chiara - Totale: 773- Penalità: 8
+2025-11-05T21:21:24.557160  Paolo - Totale: 250- Penalità: 4
+2025-11-05T21:21:26.567704  Vincitore Paolo
+2025-11-05T21:22:01.209513  Chiara - Totale: 10- Penalità: 4
+2025-11-05T21:22:01.212410  Franco - Totale: 53- Penalità: 5
+2025-11-05T21:22:01.212777  Paolo - Totale: 77- Penalità: 8
+2025-11-05T21:22:01.213177  Carlotta - Totale: 51- Penalità: 3
+2025-11-05T21:22:03.237613  Chiara - Totale: 43- Penalità: 9
+2025-11-05T21:22:03.238652  Franco - Totale: 233- Penalità: 1
+2025-11-05T21:22:03.239436  Paolo - Totale: 237- Penalità: 10
+2025-11-05T21:22:03.240012  Carlotta - Totale: 218- Penalità: 4
+2025-11-05T21:22:05.246302  Chiara - Totale: 140- Penalità: 6
+2025-11-05T21:22:05.247222  Franco - Totale: 635- Penalità: 8
+2025-11-05T21:22:05.247940  Paolo - Totale: 521- Penalità: 8
+2025-11-05T21:22:05.248629  Carlotta - Totale: 553- Penalità: 6
+2025-11-05T21:22:07.259037  Vincitore Chiara

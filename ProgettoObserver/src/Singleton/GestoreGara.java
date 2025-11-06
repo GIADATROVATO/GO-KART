@@ -15,22 +15,25 @@ import java.time.LocalDateTime;
 public class GestoreGara {
 	
 	private PrintWriter writer;
-	private static GestoreGara instance;
-		private GestoreGara() {												// il costruttore è il punto migliore in cui inizializzare le risorse per il singleton
-			try {
-				writer=new PrintWriter(new FileWriter("log.txt",true ));
-			}catch(IOException io) { io.printStackTrace();	}
-		}
-		public static GestoreGara getIstance() {
-			return Holder.INSTANCE;
-		}
-		private static final class Holder{
-			private static GestoreGara INSTANCE= new GestoreGara();
-		}
-		public void log(String message) {
-			String timeStamp=LocalDateTime.now()+"  " +message;
-			System.out.println("[LOG] "+ timeStamp);
-			writer.println(timeStamp);										// scrive su file
-			writer.flush();													//svuota il buffer per scrivere subito su file
-		}
+
+	private GestoreGara() {												// il costruttore è il punto migliore in cui inizializzare le risorse per il singleton
+		try {
+			writer=new PrintWriter(new FileWriter("log.txt",true ));
+		}catch(IOException io) { io.printStackTrace();	}
+	}
+	public static GestoreGara getIstance() {
+		return Holder.INSTANCE;
+	}
+	private static final class Holder{
+		private static GestoreGara INSTANCE= new GestoreGara();
+	}
+	public void log(String message) {
+		String timeStamp=LocalDateTime.now()+"  " +message;
+		System.out.println("[LOG] "+ timeStamp);
+		writer.println(timeStamp);										// scrive su file
+		writer.flush();													//svuota il buffer per scrivere subito su file
+	}
+	
+	
+	
 }

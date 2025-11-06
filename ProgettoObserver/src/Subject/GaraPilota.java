@@ -104,13 +104,13 @@ public class GaraPilota implements Subject{
 	            System.out.println("[DEBUG] media calcolata su mappaAttivi: " + String.format("%.2f", mediaGlobale));
 	            System.out.println();
 	            
-				System.out.println("*** classifica ordinata dopo il giro ***" +giro);
+				System.out.println("*** classifica ordinata dopo il giro senza eliminazione ***" +giro);
 				Map<Pilota, Integer> ordine= totali.entrySet().stream().sorted(Map.Entry.comparingByValue()).collect(Collectors.toMap(
 						Map.Entry::getKey, Map.Entry::getValue, (e1,e2)->e1, LinkedHashMap::new));
 				ordine.forEach( (n,t)->System.out.println( n.getId() +"	"+ t));
 				
 				System.out.println(" *** Piloti ancora in gara " +gara.pilotiAttivi.size()+ " ***");
-				// commento prova 
+				
 				gara.pilotiAttivi.forEach( s-> System.out.println(" - " +s.getId()));
 				try {
 					Thread.sleep(2000);

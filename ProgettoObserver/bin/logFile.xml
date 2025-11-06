@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status= "INFO" name="MyConfigApp">  
+<Configuration status= "INFO" >  
  <!-- il campo status=INFO serve per vedere i messaggi di Log4jz stesso(utile per debug di configurazione -->
 	<Appenders> 
 		<!-- 1 console appender -->
 		<Console target="SYSTEM_OUT" name="ConsoleAppender">
-			<PatternLayout pattern=""/>
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n"/>
 		</Console>
 		<!-- 2 Rolling File appender -->
 	

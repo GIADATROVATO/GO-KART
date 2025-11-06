@@ -29,6 +29,8 @@ import State.RitiratoState;
 import Strategia.strategiaAggressiva;
 import Strategia.strategiaModerata;
 import Subject.GaraPilota;
+import Subject.GaraPilotaBrutta;
+import Utility.LogConfig;
 import model.Pilota;
 
 public class Tester { 
@@ -58,7 +60,9 @@ public class Tester {
 	logger.debug("Messaggio di debug (visibile solo se livello >= DEBUG)");
 	logger.error("Esempio di errore");	
 		
-	Pilota p1= new Pilota("Luca", new strategiaAggressiva());
+	LogConfig.init("logFile");
+	
+	Pilota p1= new Pilota("Carlotta", new strategiaAggressiva());
 	Pilota p2= new Pilota("Paolo", new strategiaModerata());
 	Pilota p3= new Pilota("Chiara",new strategiaAggressiva());
 	Pilota p4= new Pilota("Franco",new strategiaAggressiva());
@@ -70,8 +74,10 @@ public class Tester {
 	 */
 	
 	List<Pilota> piloti = new ArrayList<>(Arrays.asList(p1, p2, p3,p4));
-	GaraPilota gara= new GaraPilota(piloti);
- 
+	
+	//GaraPilota gara= new GaraPilota(piloti);    per ora commento 
+	GaraPilotaBrutta gara= new GaraPilotaBrutta(piloti);
+	
 	Observerr o = new ObserverTelemetria();
 	Observerr o1= new ObserverDisplay();
 	Observerr o2= new ObserverClassifica();
@@ -106,13 +112,13 @@ public class Tester {
      System.out.println();
 	
 	ExecutorService executor= Executors.newFixedThreadPool(1);
-	Future<Void> task1= executor.submit(GaraPilota.corriGiro(gara));
+	Future<Void> task1= executor.submit(GaraPilotaBrutta.corriGiro(gara));
 	task1.get();
 	executor.shutdown();
 	
 
 	// COMPITI 
-	/* 1.faccio un package con le utility, con dentor una classe Logger che è di tipo Singleton , voglio un solo logger che scrive su file
+	/* 1.faccio un package con le utility, con dentro una classe Logger che è di tipo Singleton , voglio un solo logger che scrive su file
 	 * se viene istanziato restiutisce un logger 
 	 * 2. sostuisco i printl coi logger e dove non li ho messi li aggiungo per completezza con info,debug ecc 
 	 *  
